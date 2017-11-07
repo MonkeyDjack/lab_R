@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Helvetica';
+    src: url('Helvetica_cyr-Oblique.eot');
+    src: url('Helvetica_cyr-Oblique.eot?#iefix') format('embedded-opentype'),
+        url('Helvetica_cyr-Oblique.woff') format('woff'),
+        url('Helvetica_cyr-Oblique.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
