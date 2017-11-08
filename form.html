@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="fonts/fonts.css">
+  <link rel="stylesheet" href="css/form.css">
+	<title>Фориа регистрации</title>
+</head>
+<body>
+		<header class="clearfix">
+			<div class="container">
+			<nav class="menu">
+				<ul>
+					<li><a href="form.html">Регистрация</a></li>
+					<li><a href="index.html">Галерея</a></li>
+					<li><a href="book.html">Электронная книга</a></li>
+				</ul>
+			</nav>
+		</div>
+		</header>
+
+    <div class="form-wrapper">
+        <h4>Форма Регистрации</h4>
+      <form action="">
+        <input type="text" placeholder="Имя" required>
+        <input type="text" placeholder="Фамилия" required>
+        <input type="text" placeholder="Отчество" required>
+        <h5>Ваш пол</h5>
+        <input type="radio" name="gender"> Мужчина<Br>
+        <input type="radio" name="gender"> Женщина<Br>
+        <input type="radio" name="gender">Гендерфлюидный вертосексуал<Br>
+        <p><strong>Дата рождения</strong><input type="date" required></p>
+        <input type="text" placeholder="Введите ваш город">
+        <p>Ваш любимый цвет <input type="color" name="bg" value="#fff">
+        <p>Изображение профиля: <input type="file"></p>
+        <textarea name="message" placeholder="Расскажите о себе"></textarea>
+        <input type="tel" placeholder="Ваш номер телефона">
+        <input type="email" placeholder="Ваш Email">
+        <input type="password" id="password1" placeholder="Пароль">
+        <input type="password" id="password2" placeholder="Подтвердите Пароль">
+        <button type="submit">Регистрация</button>
+
+
+      </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,51 @@
+.form-wrapper{
+  width: 480px;
+  margin: 100px auto;
+  border: 2px solid #775ba3;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.form-wrapper input[type="text"],.form-wrapper input[type="tel"],.form-wrapper input[type="email"],.form-wrapper input[type="password"]{
+  width: 440px;
+  border: 1px solid #775ba3;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  height: 36px;
+  padding-left: 10px;
+  border-radius: 6px;
+}
+
+.form-wrapper input[type="date"]{
+  border: 1px solid #775ba3;
+  margin-left: 10px;
+  width: 200px;
+}
+.form-wrapper h5{
+  margin: 20px 0 0 0;
+}
+.form-wrapper p{
+  color:  #775ba3;
+}
+.form-wrapper textarea{
+  width: 440px;
+  height: 220px;
+  resize: none;
+  border: 1px solid #775ba3;
+  padding: 5px;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.form-wrapper button{
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 120px;
+  height: 40px;
+  background: #775ba3;
+  color: #fff;
+  font-size: 16px;
+  border:0;
+  border-radius: 6px
+}
